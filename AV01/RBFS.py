@@ -141,9 +141,14 @@ heuristica_bucareste = {
 
 def main() :
     problema = mapProblem('Arad','Bucharest',mapaArad)
-    resultado = RBFS(problema)
+    resultado, custo = RBFS(problema)
 
-    print(f"{resultado}")
+    # Verifica se a busca encontrou uma solução
+    if resultado:
+        print(f"Caminho: {resultado}")
+        print(f"Custo Total: {custo}")
+    else:
+        print("Nenhum caminho encontrado.")
 
 if __name__ == "__main__" :
     main()
