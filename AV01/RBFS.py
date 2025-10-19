@@ -72,6 +72,8 @@ def RBFS(problema) :
             caminho.append(temp.estadoAtual)
             temp = temp.pai
         return caminho[::-1], custoTotal
+    else :
+        return None, math.inf
 
 """
 search() é a função recursiva em si
