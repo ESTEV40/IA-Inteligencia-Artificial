@@ -1,0 +1,11 @@
+teste,repeticoes,sucesso,geracaoMedia,tempoMedio
+Padrao,100,0.66,199.30,0.0246
+Populacao_50,100,0.46,242.04,0.0163
+Busca_Feixe,100,0.01,1.00,0.0000
+BestOfN,100,0.83,101.45,0.0152
+Recomb_2Filhos,100,0.83,101.45,0.0152
+Mutacao_5%,100,0.55,225.16,0.0270
+Elitismo,100,0.85,90.95,0.0134
+Elitismo,1000,1.00,3.77,0.0044
+Recomb_2Filhos,1000,1.00,3.70,0.0022
+BestOfN,1000,1.00,2.61,0.0019
