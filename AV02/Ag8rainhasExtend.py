@@ -180,7 +180,7 @@ def genetic_algorithm_extended(
     selection_method: str = "proportional",  # 'proportional' ou 'best_of_n'
     selection_pool_size: int = 5, # N para seleção 'best_of_n' (só usado se selection_method='best_of_n')
     crossover_fn: Callable = one_point_order_crossover,
-    offspring_count: int = 2, # Número de filhos gerados por 'mixing_number' pais (1 ou 2 para ρ=2)
+    offspring_count: int = 1, # Número de filhos gerados por 'mixing_number' pais (1 ou 2 para ρ=2)
     mutation_rate: float = 0.10,
     next_generation_strategy: str = "descendants", # 'descendants' ou 'elitism'
     max_generations: int = 1000,
